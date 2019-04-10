@@ -1,0 +1,43 @@
+img{
+  width: 600px;
+  height: auto;
+  opacity: 1.0;
+}
+
+#main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#main-content li{
+  display: block;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 0;
+}
+
+ul{
+  padding: 0;
+}
+
+#country{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-image: url('https://s3.envato.com/files/251688753/preview-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Nanum Gothic', sans-serif;
+}
